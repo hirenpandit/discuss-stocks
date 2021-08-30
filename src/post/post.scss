@@ -1,0 +1,28 @@
+.heading {
+    font-size: x-large;
+}
+.action-bar {
+    display:inline-flex;
+}
+.action-bar div {
+    display:flex;
+    padding: 4px;
+}
+.vote {
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: 0px !important;
+}
+.vote-up{
+    @extend .vote;
+    background-image: url(../icons/up.png);
+}
+.vote-down{
+    @extend .vote;
+    background-image: url(../icons/down.png);
+}
+.vote-comment{
+    @extend .vote;
+    background-image: url(../icons/comment.png);
+}
